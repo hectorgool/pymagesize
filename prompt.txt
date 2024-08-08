@@ -1,0 +1,34 @@
+ayudame a mejorar la redacción de este prompt para hacer mas facil de comprender:
+
+en python dame un script haga lo siguiente:
+- que se ejecute en la linea de comandos.
+- que reciba como primer argumanto el nombre de un archivo de una imagen tipo png, por ejemplo: mi_imagen.png.
+- que el segundo argumento sea longitud de la imagen en pixeles, y que la variable se llame my_image_width.
+- que calcule la altura de la imagen conservando la proporcion de la imagen basasa en el segundo argumento, que es la longitud de la imagen y que la variable se llame my_image_heigth.
+- que al archivo modificado le ponga el mismo nombre pero que le agregue al final: _axb.png, donde a es el segundo argumento que ingreso el usuario y b es altura de la imagen conservando la proporcion de la imagen basasa en el segundo argumento. 
+-agrega una condicion para que detecte si el primer argumento es un archivo que haga el proceso anterior o si es un directorio que modifique todas las imagenes .png basadas en proceso descrito anteriormente
+-las imagenes redimensionadas se guardaran en la misma ruta y en un directorio nuevo que se llamara: images_YYYYMMDD_HHMMSS, donde YYYYMMDD_HHMMSS, significa lo siguiente:
+YYYY: Año en formato de cuatro dígitos (ej. 2024).
+MM: Mes en formato de dos dígitos (ej. 08 para agosto).
+DD: Día en formato de dos dígitos (ej. 04).
+HH: Hora en formato de 24 horas (ej. 14).
+MM: Minutos en formato de dos dígitos (ej. 30).
+SS: Segundos en formato de dos dígitos (ej. 15). 
+ 
+
+CROP
+en python dame un script haga lo siguiente:
+- que se ejecute en la linea de comandos.
+- que reciba como primer argumanto el nombre de un archido de una imagen tipo png, por ejemplo: mi_imagen.png.
+- que el segundo argumento sea longitud de la imagen en pixeles, y que la variable se llame my_image_width.
+- que haga un recorte de la imagen tipo CROP, dentrada a lo largo y ancho de la imagen, dejando una imagen cuadrada de 2000 por 2000 pixeles.
+- por default hara una imagen de 2000 por 2000 pixeles, pero si se agrega un numero como argumento, ese numero sera la nueva medida del crop que replazara a los 2000 por 2000 pixeles.
+- que al archivo modificado le ponga el mismo nombre pero que le agregue al final: _crop_axa.png, donde a es el tamaño de los pixeles a los que se cambio.
+-agrega una condicion para que detecte si el primer argumento es un archivo que haga el proceso anterior o si es un directorio que modifique todas las imagenes .png basadas en proceso descrito anteriormente
+-las imagenes redimensionadas se guardaran en la misma ruta y en un directorio nuevo que se llamara: images_YYYYMMDD_HHMMSS, donde YYYYMMDD_HHMMSS, significa lo siguiente:
+YYYY: Año en formato de cuatro dígitos (ej. 2024).
+MM: Mes en formato de dos dígitos (ej. 08 para agosto).
+DD: Día en formato de dos dígitos (ej. 04).
+HH: Hora en formato de 24 horas (ej. 14).
+MM: Minutos en formato de dos dígitos (ej. 30).
+SS: Segundos en formato de dos dígitos (ej. 15).
